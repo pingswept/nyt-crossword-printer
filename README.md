@@ -1,5 +1,7 @@
 Tampermonkey script for downloading NYT crosswords as a PDF, requires NYT subscription
 
+I built this because printing out crosswords is tedious. I am a programmer, but most of this was written with AI, so who the hell knows if it works. Good luck.
+
 ## Setup
 
 1. Install the **Tampermonkey** browser extension
