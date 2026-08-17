@@ -1,4 +1,4 @@
-Tampermonkey script for downloading NYT crosswords as a PDF, requires NYT subscription
+Tampermonkey script for downloading NYT crosswords as a PDF, requires NYT subscription (I think?)
 
 I built this because printing out crosswords is tedious. I am a programmer, but most of this was written with AI, so who the hell knows if it works. Good luck.
 
@@ -13,4 +13,8 @@ I built this because printing out crosswords is tedious. I am a programmer, but 
 
 1. Go to `https://www.nytimes.com/crosswords/archive/daily`while logged in.
 2. A "Crossword Batch Fetcher" panel should appear in the top-right.
-4. Click **Fetch & Download** — the file downloads through your browser like any other download.
+3. Click **Fetch & Download**. A PDF of the crosswords will download through your browser like any other download.
+
+## Irritating bugs
+
+1. The date range for the crosswords to print is specified by the end date of the range. This is insane. Or maybe it's just a date during the week you specified? Honestly, this code is probably spaghetti, but it at least sort of works for me.
